@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.each-txn {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-txn {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.txnText {
+  color: #334155;
+  font-size: 12px;
+  font-family: 'Roboto';
+  width: 30%;
+}
+@media screen and (min-width: 768px) {
+  .txnText {
+    font-size: 14px;
+  }
+}
+.del-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  width: 10%;
+}
+
+.del-icon {
+  width: 20px;
+}

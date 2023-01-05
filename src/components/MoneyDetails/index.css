@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.icon {
+  width: 65px;
+  margin: 20px;
+}
+
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.detail-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .detail-container {
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.detail-title {
+  color: #475569;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 0px;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+.detail-amount {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 0;
+  line-height: 1.3;
+}
+@media screen and (min-width: 768px) {
+  .detail-title {
+    font-size: 14px;
+  }
+  .detail-amount {
+    font-size: 24px;
+  }
+}
